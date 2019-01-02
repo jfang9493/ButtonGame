@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.FXML">
+    <Button text="Add 1" GridPane.rowIndex="2" />
+    <Button text="Subtract 1" GridPane.rowIndex="3" />
+    <Button layoutX="94.0" layoutY="98.0" text="Add 5" GridPane.rowIndex="4" />
+    <Button layoutX="207.0" layoutY="98.0" text="Subtract 5" GridPane.rowIndex="5" />
+
+</AnchorPane>
